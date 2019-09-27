@@ -1,0 +1,32 @@
+<% include partials/header %>
+
+</head>
+<body>
+	<h1>Chercher un film</h1>
+
+	<form action="/results" method="get">
+	    <input type="text" name="search" placeholder="Nom du film" class="recherche">
+	    <input type="submit">
+	</form>
+	<style type="text/css">
+		body{
+			display: flex;
+			flex-direction: column;
+			align-items: center;
+			margin : 300px 0px;
+			text-transform: uppercase;
+			background: url("http://www.premiere.fr/sites/default/files/styles/scale_crop_1280x720/public/2019-08/Capture%20d%E2%80%99e%CC%81cran%202019-08-24%20a%CC%80%2023.36.02.png");
+			background-size: cover;
+		}
+		h1{
+			color : white;
+			font-size : 100px;
+			text-shadow: 0 -1px 4px #FFF, 0 -2px 10px #ff0, 0 -10px 20px #ff8000, 0 -18px 40px #F00, 2px 2px 2px rgba(206,89,55,0);
+		}
+		.recherche{
+			border: 5px hidden #1C6EA4;
+			border-radius: 40px;
+		}
+		</style>
+</body>
+</html>

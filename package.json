@@ -1,0 +1,26 @@
+{
+  "name": "filmlist",
+  "version": "1.0.0",
+  "description": "liste de film",
+  "main": "server.js",
+  "scripts": {
+    "test": "test",
+    "start": "node server.js",
+    "start:dev": "nodemon server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AntoineDeVinci/ListeFilmNodeJs.git"
+  },
+  "keywords": [
+    "ListFilm"
+  ],
+  "author": "Antoine",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/AntoineDeVinci/ListeFilmNodeJs/issues"
+  },
+  "homepage": "https://github.com/AntoineDeVinci/ListeFilmNodeJs#readme",
+  "dependencies": {
+  }
+}
